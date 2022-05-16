@@ -16,12 +16,12 @@ import qoom from './Assets/sponsorsLogos/qoom.svg';
 import Replit from './Assets/sponsorsLogos/replit.png';
 import sublime from './Assets/sponsorsLogos/sublime.png';
 import taskade from './Assets/sponsorsLogos/taskade.png';
-import sp_image from './Assets/sponsorsLogos/sp.png'
+import sp_image from './Assets/sponsorsLogos/sp.png';
 import lyin from './Assets/teami/lyin.jpg';
-import talha from './Assets/teami/talha.jpeg'
-import ali from './Assets/teami/ali.jpeg'
-import aheed from './Assets/teami/aheed.jpg'
-import saroosh from './Assets/teami/saroosh.jpeg'
+import talha from './Assets/teami/talha.jpeg';
+import ali from './Assets/teami/ali.jpeg';
+import aheed from './Assets/teami/aheed.jpg';
+import saroosh from './Assets/teami/saroosh.jpeg';
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
  * or you can provide a cloud link in src
@@ -43,10 +43,8 @@ const TOP_SECTION = {
     'Join us on 25th May 2022 with over 100+ students from across the nation to solve challenging problems, innovation, & fun.',
   IMG_SRC: boy,
   DISCORD_LINK: '',
-  JUDGES_FORM_LINK:
-    '',
-  HACKERS_REGISTRATION_FORM_LINK:
-    'https://forms.gle/PwmGBFrz19RCtUik9'
+  JUDGES_FORM_LINK: '',
+  HACKERS_REGISTRATION_FORM_LINK: 'https://forms.gle/PwmGBFrz19RCtUik9'
 };
 
 const SOCIALS = {
@@ -138,7 +136,7 @@ const schedule = [
         link: 'https://forms.gle/Desv2HbBTvaNtcGF8'
       }
     ]
-  },
+  }
 ];
 /** ICON
  *
@@ -269,7 +267,7 @@ const JudgesInfo = [
       github: '',
       linkedin: '',
       img: zoha
-    },
+    }
   ]
 ];
 
@@ -280,7 +278,7 @@ const JudgesInfo = [
  */
 
 const sponsorLogos = [
-  [{src: sp_image}, {src: sublime}, {src: echoAR}], //Array 1
+  [{src: sp_image}] //Array 1
   //[{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
   //[{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
   //[{src: egg}, {src: ll}, {src: ACF}] //Array 4
@@ -344,14 +342,12 @@ const frequentlyAskedQuestions = [
     [
       {
         label: 'Which programming languages are acceptable?',
-        content:
-            'You can compete in python,java and Cpp.'
+        content: 'You can compete in python,java and Cpp.'
       },
       {
         label: 'Refund Policy?',
-        content:
-            'once you are registered there will be no refunds!.'
-      },
+        content: 'once you are registered there will be no refunds!.'
+      }
     ]
   ]
 ];
