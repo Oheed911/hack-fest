@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hack-fest/static/css/main.16b1d896.chunk.css",
-    "main.js": "/hack-fest/static/js/main.41cb83d8.chunk.js",
-    "main.js.map": "/hack-fest/static/js/main.41cb83d8.chunk.js.map",
+    "main.js": "/hack-fest/static/js/main.4572fa24.chunk.js",
+    "main.js.map": "/hack-fest/static/js/main.4572fa24.chunk.js.map",
     "runtime-main.js": "/hack-fest/static/js/runtime-main.eff372cf.js",
     "runtime-main.js.map": "/hack-fest/static/js/runtime-main.eff372cf.js.map",
     "static/js/2.7d3c72a5.chunk.js": "/hack-fest/static/js/2.7d3c72a5.chunk.js",
@@ -15,7 +15,6 @@
     "static/media/aheed.de190787.jpg": "/hack-fest/static/media/aheed.de190787.jpg",
     "static/media/boy.9e16116b.png": "/hack-fest/static/media/boy.9e16116b.png",
     "static/media/cross.cdc3eebf.svg": "/hack-fest/static/media/cross.cdc3eebf.svg",
-    "static/media/echoAR.4b8bc90d.png": "/hack-fest/static/media/echoAR.4b8bc90d.png",
     "static/media/ham-c.8ab7632d.svg": "/hack-fest/static/media/ham-c.8ab7632d.svg",
     "static/media/ham.a63ab4de.svg": "/hack-fest/static/media/ham.a63ab4de.svg",
     "static/media/icons8-dev-post.15a5555a.svg": "/hack-fest/static/media/icons8-dev-post.15a5555a.svg",
@@ -32,8 +31,7 @@
     "static/media/moon.73697ab9.png": "/hack-fest/static/media/moon.73697ab9.png",
     "static/media/pattern4.d7089884.png": "/hack-fest/static/media/pattern4.d7089884.png",
     "static/media/saroosh.ec28b254.jpeg": "/hack-fest/static/media/saroosh.ec28b254.jpeg",
-    "static/media/sp.b9498ae4.png": "/hack-fest/static/media/sp.b9498ae4.png",
-    "static/media/sublime.f9991326.png": "/hack-fest/static/media/sublime.f9991326.png",
+    "static/media/spor.bc17bf68.jpeg": "/hack-fest/static/media/spor.bc17bf68.jpeg",
     "static/media/talha.27d3b242.jpeg": "/hack-fest/static/media/talha.27d3b242.jpeg",
     "static/media/zoha.3b9b6b45.png": "/hack-fest/static/media/zoha.3b9b6b45.png"
   },
@@ -41,6 +39,6 @@
     "static/js/runtime-main.eff372cf.js",
     "static/js/2.7d3c72a5.chunk.js",
     "static/css/main.16b1d896.chunk.css",
-    "static/js/main.41cb83d8.chunk.js"
+    "static/js/main.4572fa24.chunk.js"
   ]
 }
