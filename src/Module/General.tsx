@@ -34,10 +34,10 @@ import zoha from "./Assets/teami/zoha.png";
 
 
 const TOP_SECTION = {
-  TITLE: "Join Limbo Hacks",
-  Typed_effect: ["24 hours of creation", "Win awesome prizes"],
+  TITLE: "Join Hack Fest",
+  Typed_effect: ["Solve it Fast and WIN", "Win awesome prizes","Swag and much more"],
   SHORT_DESCRIPTION:
-    "Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.",
+    "Join us on 25th May 2022 with over 100+ students from across the nation to solve challenging problems, innovation, & fun.",
   IMG_SRC: boy,
   DISCORD_LINK: "",
   JUDGES_FORM_LINK:
@@ -57,9 +57,9 @@ const SOCIALS = {
 };
 
 const MIDDLE_SECTION = {
-  TITLE: "What is Limbo hacks?",
+  TITLE: "What is Hack Fest?",
   LONG_DESCRIPTION:
-    "Hack Limbo is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
+    "Hack Fest is a competetive programming Event for Programmers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the time developers at Hack Fest will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
   LOGO_EFFECT: true,
   LOGO: ""
 };
@@ -92,71 +92,43 @@ const FOOTER = {
  */
 
 const calenderStartingDate = {
-  month: 12,
-  year: 2021
+  month: 5,
+  year: 2022
 }
 
 
  const schedule = [
   {
-      "day": "8-11-2021",
+      "day": "25-5-2022",
       "events": [
           {
-              "title": "Intro to phycycology",
-              "timings": "12 AM - 1 Pm",
+              "title": "Hack it!",
+              "timings": "7 Pm - 10 Pm",
                "link" : "https://google.com"
           }
       ]
   },
+   {
+     "day": "22-5-2022",
+     "events": [
+       {
+         "title": "Introductory Workshop!",
+         "timings": "9 Pm - 10 Pm",
+         "link" : "https://google.com"
+       }
+     ]
+   },
   {
-      "day": "5-12-2021",
+      "day": "17-5-2022",
       "events": [
           {
-              "title": "Intro to deep learning",
-              "timings": "12 AM - 1 Pm",
-              "link" : "https://google.com"
-          },
-          {
-              "title": "Intro to deep learning",
-              "timings": "12 AM - 1 Pm",
+              "title": "Registrations are open!",
+              "timings": "12 AM - 12 Pm",
               "link" : "https://google.com"
           }
       ]
-  },
-  {
-      "day": "3-12-2021",
-      "events": [
-          {
-              "title": "Intro to phycycology",
-              "timings": "12 AM - 1 Pm",
-              "link" : "https://google.com"
-          }
-      ]
-  },
-  {
-      "day": "1-12-2021",
-      "events": [
-          {
-              "title": "Intro to deep learning",
-              "timings": "12 AM - 1 Pm",
-              "link" : "https://google.com"
-          }
-      ]
-  },
-  {
-    "day": "1-1-2022",
-    "events": [
-        {
-            "title": "Intro to phycycology",
-            "timings": "12 AM - 1 Pm",
-             "link" : "https://google.com"
-        }
-    ]
-},
+  }
 ]
-
-
-
 /** ICON
  *
  * icons are from fontawesome visit = https://fontawesome.com
@@ -176,19 +148,19 @@ const Prizeinfo = [
       icon: <i className="first fas fa-4x fa-trophy"></i>,
       type: "overall First",
       content:
-        "First Overall prize will be given to a project that outstands all other submissions"
+        "First Overall prize will be given to submission passing most test cases and submission with minimum time"
     },
     {
       icon: <i className=" second fas fa-4x fa-medal"></i>,
       type: "overall Second",
       content:
-        "Second Overall prize will be given to the second best project of the hackathon"
+        "2nd Overall prize will be given to submission 2nd best passing most test cases and submission with minimum time"
     },
     {
       icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
       type: "Third Second",
       content:
-        "Best third overall project of the hackathon will win some awesome prizes"
+        "Third Overall prize will be given to third best submission passing most test cases and submission with minimum time"
     }
   ],
   [
@@ -197,25 +169,12 @@ const Prizeinfo = [
       icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
       type: "Best Solo",
       content:
-        "You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team"
+        "You project will qualify for this prize if you participate alone without a team! we believe u can solve it alone!"
     },
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
       type: " Best Beginner",
-      content: "Your project will qualify for this category if atleast 50% "
-    },
-    {
-      icon: <i className=" fifth fa-3x fas fa-book-open"></i>,
-      type: "Best UI/UX",
-      content: "Project with most creative designs will be UI/UX track"
-    }
-  ],
-  [
-    //Array 3
-    {
-      icon: <i className="fas fa-4x sixth fa-male"></i>,
-      type: "Best Web App with Qoom",
-      content: "Must use qoom in your project to win this category"
+      content: "Your code will qualify if it passes all test cases hidden and given test cases! "
     },
     {
       icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
@@ -235,21 +194,21 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: "Rehan",
+      Name: "Oheed Imran",
       role: "Organizer",
       github: "https://github.com/Limbo-Hacks/Hackathon-website-template",
       linkedin: "",
       img: me
     },
     {
-      Name: "Moon",
+      Name: "Talha zeb",
       role: "Organizer",
       github: "",
       linkedin: "",
       img: moon
     },
     {
-      Name: "Erika",
+      Name: "Muhammad Ali",
       role: "Organizer",
       github: "",
       linkedin: "",
@@ -259,19 +218,26 @@ const TeamInfo = [
   [
     //Array 2
     {
-      Name: "Lyanola",
+      Name: "Saroosh Hammad",
       role: "Organizer",
       github: "",
       linkedin: "",
       img: lyin
     },
     {
-      Name: "Zoheb",
+      Name: "Syed Mustafa",
       role: "Organizer",
       github: "",
       linkedin: "",
       img: zoha
-    },    
+    },
+    {
+      Name: "Ahmed",
+      role: "Organizer",
+      github: "",
+      linkedin: "",
+      img: zoha
+    }
   ] 
 ];
 
@@ -340,26 +306,22 @@ const frequentlyAskedQuestions  = [
   [
     [
       {
-        label: "What is a hackathon?",
+        label: "What is a hack Fest?",
         content:
-        'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'      },
+        'Hack Fest is a 3-4 hour event where "Programmers" all over the globe will try to solve problems and design efficient solution in minimum time.'      },
       {
         label: "Who can attend?",
-        content: "Limbo Hacks is open to all undergraduate, high school students and middle school students from all schools."
+        content: " Hack Fest is open to all undergraduate, high school students and middle school students from all schools."
       },
       {
         label: "I am a first time hacker, what should I do?",
-        content: "No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathon and hacking in general."
+        content: "No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome initial workshop, where we will explain everything to you so you can solve problems with no worries!."
       },
-      {
-        label: "How team formation works?",
-        content: "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
-      }
     ],
     [
       {
-        label: "How to register myself in the hackathon?",
-        content: "All you need is to fill our form above and join Discord, we will guide you through everything there"
+        label: "How to register myself in the Hack Fest?",
+        content: "All you need is to fill our form above and join whatsapp group, we will guide you through everything there"
       },
       {
         label: "I have more questions?",
@@ -367,16 +329,28 @@ const frequentlyAskedQuestions  = [
       }
       ,
       {
-        label: "Can i volunteer?",
-        content: "Yes we are actively looking for volunteers, fill the form (in footer section) we will be glad to have you."
+        label: "Will there be swag?",
+        content: "Yes! Participants will receiving  Hack Fest swag sponsored by Sportivity!."
+      }
+    ],
+    [
+      {
+        label: "Winning Prize?",
+        content: "Winning prize will be around 10000PKR (subject to number of participants)!."
+      },
+      {
+        label: "What will be registration fee?",
+        content: "Registration fee for all participants in only 200 pkr!."
       }
       ,
       {
-        label: "Will there be swag?",
-        content: "Yes! Participants will recieveing Limbo Hacks swag!."
+        label: "Will there be ceriticates for participation?",
+        content: "Yes every participant will be awarded with certificates of participation!."
       }
     ]
+
   ],
+
 
 ];
 
