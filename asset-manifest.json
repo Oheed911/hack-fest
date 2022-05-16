@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hack-fest/static/css/main.16b1d896.chunk.css",
-    "main.js": "/hack-fest/static/js/main.8673d206.chunk.js",
-    "main.js.map": "/hack-fest/static/js/main.8673d206.chunk.js.map",
+    "main.js": "/hack-fest/static/js/main.db076397.chunk.js",
+    "main.js.map": "/hack-fest/static/js/main.db076397.chunk.js.map",
     "runtime-main.js": "/hack-fest/static/js/runtime-main.eff372cf.js",
     "runtime-main.js.map": "/hack-fest/static/js/runtime-main.eff372cf.js.map",
     "static/js/2.7d3c72a5.chunk.js": "/hack-fest/static/js/2.7d3c72a5.chunk.js",
@@ -48,6 +48,6 @@
     "static/js/runtime-main.eff372cf.js",
     "static/js/2.7d3c72a5.chunk.js",
     "static/css/main.16b1d896.chunk.css",
-    "static/js/main.8673d206.chunk.js"
+    "static/js/main.db076397.chunk.js"
   ]
 }
