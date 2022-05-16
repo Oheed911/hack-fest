@@ -16,7 +16,7 @@ import qoom from './Assets/sponsorsLogos/qoom.svg';
 import Replit from './Assets/sponsorsLogos/replit.png';
 import sublime from './Assets/sponsorsLogos/sublime.png';
 import taskade from './Assets/sponsorsLogos/taskade.png';
-import sp_image from './Assets/sponsorsLogos/sp.png';
+import sp_image from './Assets/sponsorsLogos/spor.jpeg';
 import lyin from './Assets/teami/lyin.jpg';
 import talha from './Assets/teami/talha.jpeg';
 import ali from './Assets/teami/ali.jpeg';
