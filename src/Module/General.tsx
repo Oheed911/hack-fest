@@ -16,7 +16,12 @@ import qoom from './Assets/sponsorsLogos/qoom.svg';
 import Replit from './Assets/sponsorsLogos/replit.png';
 import sublime from './Assets/sponsorsLogos/sublime.png';
 import taskade from './Assets/sponsorsLogos/taskade.png';
+import sp_image from './Assets/sponsorsLogos/sp.png'
 import lyin from './Assets/teami/lyin.jpg';
+import talha from './Assets/teami/talha.jpeg'
+import ali from './Assets/teami/ali.jpeg'
+import aheed from './Assets/teami/aheed.jpg'
+import saroosh from './Assets/teami/saroosh.jpeg'
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
  * or you can provide a cloud link in src
@@ -39,19 +44,19 @@ const TOP_SECTION = {
   IMG_SRC: boy,
   DISCORD_LINK: '',
   JUDGES_FORM_LINK:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u',
+    '',
   HACKERS_REGISTRATION_FORM_LINK:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNTgyREk0VzdEMU9RVFlPMVNWVEJQUkNYMi4u'
+    'https://forms.gle/PwmGBFrz19RCtUik9'
 };
 
 const SOCIALS = {
-  instagram: 'https://www.instagram.com/limbohacks/',
-  discord: 'https://discord.com/invite/8XJSzmtWPp',
-  linkedin: 'https://www.linkedin.com/company/limbo-hacks/',
-  twitter: 'https://twitter.com/HacksLimbo',
-  devpost: 'https://limbo-hacks-12968.devpost.com/',
-  email: 'mailto:hello@limbohacks.tech',
-  mail: 'hello@limbohacks.tech'
+  instagram: 'https://instagram.com/hackfest?r=nametag',
+  discord: 'https://discord.gg/bRW4VQye',
+  linkedin: 'https://www.linkedin.com/',
+  twitter: 'https://twitter.com/',
+  devpost: '',
+  email: 'mailto:aheed.butt.911@gmail.com',
+  mail: 'aheed.butt.911@gmail.com'
 };
 
 const MIDDLE_SECTION = {
@@ -65,11 +70,11 @@ const MIDDLE_SECTION = {
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
-    src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u'
+    src: ''
   },
   JOIN_TEAM: {
     required: true,
-    src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u'
+    src: ''
   },
   Privacy_policy: {
     required: false,
@@ -120,10 +125,20 @@ const schedule = [
       {
         title: 'Registrations are open!',
         timings: '12 AM - 12 Pm',
-        link: 'https://google.com'
+        link: 'https://forms.gle/Desv2HbBTvaNtcGF8'
       }
     ]
-  }
+  },
+  {
+    day: '24-5-2022',
+    events: [
+      {
+        title: 'Registration Closed!',
+        timings: '11:59 Pm',
+        link: 'https://forms.gle/Desv2HbBTvaNtcGF8'
+      }
+    ]
+  },
 ];
 /** ICON
  *
@@ -192,48 +207,48 @@ const TeamInfo = [
     //Array 1
     {
       Name: 'Oheed Imran',
-      role: 'Organizer',
-      github: 'https://github.com/Limbo-Hacks/Hackathon-website-template',
+      role: 'Oheed - Organizer',
+      github: 'https://github.com/Oheed911',
       linkedin: '',
-      img: me
+      img: aheed
     },
     {
       Name: 'Talha zeb',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: moon
+      role: 'Talha - Organizer',
+      github: 'https://github.com/Talhazeb',
+      linkedin: 'https://www.linkedin.com/in/muhammad-talha-zeb-khan/',
+      img: talha
     },
     {
       Name: 'Muhammad Ali',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: Ryah
+      role: 'Ali - Organizer',
+      github: 'https://github.com/MuhammadAli511',
+      linkedin: 'https://www.linkedin.com/in/muhammad-ali-6932bb211/',
+      img: me
     }
   ],
   [
     //Array 2
     {
       Name: 'Saroosh Hammad',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: lyin
+      role: 'Saroosh - Organizer',
+      github: 'https://github.com/Saroosh421',
+      linkedin: 'https://www.linkedin.com/in/saroosh-hammad-3a46a6214/',
+      img: saroosh
     },
     {
       Name: 'Syed Mustafa',
-      role: 'Organizer',
+      role: 'Mustafa- Organizer',
       github: '',
       linkedin: '',
-      img: zoha
+      img: me
     },
     {
       Name: 'Ahmed',
-      role: 'Organizer',
+      role: 'Ahmed - Organizer',
       github: '',
       linkedin: '',
-      img: zoha
+      img: moon
     }
   ]
 ];
@@ -242,43 +257,19 @@ const JudgesInfo = [
   [
     //Array 1
     {
-      Name: 'Rehan',
-      role: 'Organizer',
+      Name: 'Toqeer ahmed',
+      role: 'Lead-Judge',
       github: '',
       linkedin: '',
       img: me
     },
     {
-      Name: 'Moon',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: moon
-    },
-    {
-      Name: 'Ryah Garcia',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: Ryah
-    }
-  ],
-  [
-    //Array 2
-    {
-      Name: 'Lyanola',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: lyin
-    },
-    {
-      Name: 'Zoheb',
-      role: 'Organizer',
+      Name: 'Shoaib Mehboob',
+      role: 'Judge',
       github: '',
       linkedin: '',
       img: zoha
-    }
+    },
   ]
 ];
 
@@ -289,10 +280,10 @@ const JudgesInfo = [
  */
 
 const sponsorLogos = [
-  [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-  [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
-  [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+  [{src: sp_image}, {src: sublime}, {src: echoAR}], //Array 1
+  //[{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
+  //[{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
+  //[{src: egg}, {src: ll}, {src: ACF}] //Array 4
 ];
 
 /** Instructions
@@ -326,7 +317,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'I have more questions?',
         content:
-          'Reach us directly at (rehan@limbohacks.tech or hello@limbohacks.tech) we would happy to help you.'
+          'Reach us directly at (aheed.butt.911@gmail.com ) we would happy to help you.'
       },
       {
         label: 'Will there be swag?',
@@ -349,6 +340,18 @@ const frequentlyAskedQuestions = [
         content:
           'Yes every participant will be awarded with certificates of participation!.'
       }
+    ],
+    [
+      {
+        label: 'Which programming languages are acceptable?',
+        content:
+            'You can compete in python,java and Cpp.'
+      },
+      {
+        label: 'Refund Policy?',
+        content:
+            'once you are registered there will be no refunds!.'
+      },
     ]
   ]
 ];

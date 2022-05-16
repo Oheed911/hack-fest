@@ -84,11 +84,6 @@ export default function Footer() {
           <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
             <Btn type="Register" overlay="Fill the form" />
           </a>
-          {FOOTER.VOLUNTEERING_FORM.required && (
-            <a href={FOOTER.VOLUNTEERING_FORM.src}>
-              <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
-            </a>
-          )}
         </div>
         <div className="footer_info">
           <p>
@@ -97,7 +92,7 @@ export default function Footer() {
               <em>{SOCIALS.mail}</em>
             </a>{' '}
           </p>
-          <p>Made with dick️</p>
+          <p>Made with luv️</p>
         </div>
         {template && viewTemplate && (
           <GithubTemplate hideTemplate={() => setViewTemplate(false)} />
