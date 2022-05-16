@@ -97,28 +97,7 @@ export default function Footer() {
               <em>{SOCIALS.mail}</em>
             </a>{' '}
           </p>
-
-          {FOOTER.Privacy_policy.required && (
-            <a
-              href={PrivacyPolicy}
-              download
-              target="blank"
-              className="privacy-policy"
-            >
-              <p>Privacy Policy</p>
-            </a>
-          )}
-          {FOOTER.Terms_of_use.required && (
-            <a
-              href={TermsOfUse}
-              download
-              target="blank"
-              className="privacy-policy"
-            >
-              <p>Terms of Use</p>
-            </a>
-          )}
-          <p>Made with ❤️</p>
+          <p>Made with dick️</p>
         </div>
         {template && viewTemplate && (
           <GithubTemplate hideTemplate={() => setViewTemplate(false)} />

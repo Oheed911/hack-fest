@@ -72,11 +72,11 @@ const FOOTER = {
     src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u'
   },
   Privacy_policy: {
-    required: true,
+    required: false,
     src: ''
   },
   Terms_of_use: {
-    required: true,
+    required: false,
     src: ''
   }
 };
