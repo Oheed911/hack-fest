@@ -1,6 +1,6 @@
 {
-  "homepage": "https://oheed911.github.io/Hack-Fest/",
-  "name": "hackathon-website-template",
+  "homepage": "https://oheed911.github.io/hack-fest/",
+  "name": "hack-fest",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
