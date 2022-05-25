@@ -37,10 +37,11 @@ const TOP_SECTION = {
   Typed_effect: [
     'Solve it Fast and WIN',
     'Win awesome prizes',
-    'Swag and much more'
+    'Swag and much more',
+      'Hack-Fest is extended till 30th'
   ],
   SHORT_DESCRIPTION:
-    'Join us on 25th May 2022 with over 100+ students from across the nation to solve challenging problems, innovation, & fun.',
+    'Join us on 30th May 2022 with over 100+ students from across the nation to solve challenging problems, innovation, & fun.',
   IMG_SRC: boy,
   DISCORD_LINK: '',
   JUDGES_FORM_LINK: '',
@@ -98,7 +99,7 @@ const calenderStartingDate = {
 
 const schedule = [
   {
-    day: '25-5-2022',
+    day: '30-5-2022',
     events: [
       {
         title: 'Hack it!',
@@ -108,7 +109,7 @@ const schedule = [
     ]
   },
   {
-    day: '22-5-2022',
+    day: '28-5-2022',
     events: [
       {
         title: 'Introductory Workshop!',
@@ -128,7 +129,7 @@ const schedule = [
     ]
   },
   {
-    day: '24-5-2022',
+    day: '29-5-2022',
     events: [
       {
         title: 'Registration Closed!',
